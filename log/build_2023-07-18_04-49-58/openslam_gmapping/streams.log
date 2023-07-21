@@ -1,0 +1,119 @@
+[0.027s] Invoking command in '/home/phufoxy/ydlidar_x3/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/phufoxy/ydlidar_x3/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phufoxy/ydlidar_x3/install/openslam_gmapping
+[0.079s] -- The C compiler identification is GNU 9.4.0
+[0.133s] -- The CXX compiler identification is GNU 9.4.0
+[0.137s] -- Check for working C compiler: /usr/bin/cc
+[0.197s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.198s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.272s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.345s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.461s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.615s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.714s] -- Configuring done
+[0.727s] -- Generating done
+[0.728s] -- Build files have been written to: /home/phufoxy/ydlidar_x3/build/openslam_gmapping
+[0.732s] Invoked command in '/home/phufoxy/ydlidar_x3/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/phufoxy/ydlidar_x3/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phufoxy/ydlidar_x3/install/openslam_gmapping
+[0.735s] Invoking command in '/home/phufoxy/ydlidar_x3/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/phufoxy/ydlidar_x3/build/openslam_gmapping -- -j8 -l8
+[0.771s] [35m[1mScanning dependencies of target utils[0m
+[0.771s] [35m[1mScanning dependencies of target sensor_base[0m
+[0.781s] [  9%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[0.781s] [  9%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[0.784s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[0.784s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[1.198s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[1.315s] [ 27%] [32m[1mLinking CXX static library libutils.a[0m
+[1.326s] [ 27%] Built target sensor_base
+[1.352s] [35m[1mScanning dependencies of target sensor_odometry[0m
+[1.368s] [ 31%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[1.382s] [35m[1mScanning dependencies of target sensor_range[0m
+[1.416s] [ 36%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[1.418s] [ 40%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[1.438s] [ 45%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[1.498s] [ 45%] Built target utils
+[2.146s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[2.188s] [ 50%] Built target sensor_odometry
+[2.373s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[2.410s] [ 54%] Built target sensor_range
+[2.419s] [35m[1mScanning dependencies of target scanmatcher[0m
+[2.433s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[2.433s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[2.433s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[2.434s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[4.076s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[4.107s] [ 77%] Built target scanmatcher
+[4.117s] [35m[1mScanning dependencies of target gridfastslam[0m
+[4.131s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[4.133s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[4.134s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[4.134s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[5.622s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[5.653s] [100%] Built target gridfastslam
+[5.664s] Invoked command in '/home/phufoxy/ydlidar_x3/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/phufoxy/ydlidar_x3/build/openslam_gmapping -- -j8 -l8
+[5.689s] Invoking command in '/home/phufoxy/ydlidar_x3/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/phufoxy/ydlidar_x3/build/openslam_gmapping
+[5.696s] -- Install configuration: ""
+[5.697s] -- Execute custom install script
+[5.697s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/lib/libgridfastslam.a
+[5.706s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/lib/libscanmatcher.a
+[5.714s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/lib/libsensor_base.a
+[5.723s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[5.731s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[5.740s] -- Up-to-date symlink: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[5.740s] -- Up-to-date symlink: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[5.740s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/lib/libsensor_odometry.a
+[5.749s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/lib/libsensor_range.a
+[5.757s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/lib/libutils.a
+[5.766s] -- Up-to-date symlink: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[5.766s] -- Up-to-date symlink: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[5.766s] -- Up-to-date symlink: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[5.766s] -- Up-to-date symlink: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[5.767s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[5.776s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[5.784s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[5.792s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/grid/map.h
+[5.800s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[5.809s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[5.817s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[5.826s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/log/configuration.h
+[5.834s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[5.842s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[5.851s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[5.859s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[5.867s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[5.876s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[5.884s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[5.893s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[5.901s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[5.910s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[5.918s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[5.927s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[5.935s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[5.944s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[5.952s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[5.961s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/utils/point.h
+[5.969s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/include//gmapping/utils/stat.h
+[5.978s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[5.987s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[5.996s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[6.005s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[6.014s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[6.023s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[6.031s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[6.040s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[6.049s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[6.057s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[6.066s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[6.074s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[6.082s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[6.091s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.099s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[6.108s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[6.116s] -- Symlinking: /home/phufoxy/ydlidar_x3/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[6.131s] Invoked command in '/home/phufoxy/ydlidar_x3/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/phufoxy/ydlidar_x3/build/openslam_gmapping
