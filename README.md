@@ -5,6 +5,7 @@ Jul 23 2023
 
 
 ## Used By Phuwaset 
+http://www.yahboom.net/study/EAI-X3
 
 This project is used by the following companies:
 
