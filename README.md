@@ -31,7 +31,7 @@ When using this radar, you need to enter the workspace every time you execute a 
 Unzip the [X3_ws_src.zip] function package and put it into the src folder of the X3_ws workspace, and open the terminal in the workspace
 
 ```bash
-  colcon build               # compile
+  colcon build --symlink-install              # compile
   source install/setup.bash  # update environment
 ```
 
