@@ -62,6 +62,11 @@ Use the following command to view modified remap
 ```bash
   ll  /dev/ydlidar
 ```
+source package
+
+```bash
+  . install/setup.bash
+```
 terminal test
 
 ```bash
