@@ -1,5 +1,5 @@
 
-# YDlidar X3 Ros2 Foxy by Phuwaset Sibta
+# YDlidar X3 Ros2 Foxy 
 
 Jul 23 2023
 
